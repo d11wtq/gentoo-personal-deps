@@ -3,6 +3,8 @@ git_config() {
     key=$1
     val=$2
 
+    echolog "$key=$val"
+
     is_met() {
       [[ `git config "$key"` = "$val" ]]
     }
