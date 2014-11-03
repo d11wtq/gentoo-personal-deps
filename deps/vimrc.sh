@@ -9,7 +9,7 @@ vimrc() {
     }
 
     meet() {
-      echolog "Running setup"
+      log "Running setup"
       vim -u ~/.vim/setup
     }
   }
